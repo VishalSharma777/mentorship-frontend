@@ -1,0 +1,145 @@
+body {
+    background: #67B26F;  
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+/* Container styles */
+.rt-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Column styles */
+.col-rt-4 {
+    float: left;
+    width: 33.33333%;
+}
+
+.col-rt-12 {
+    float: left;
+    width: 100%;
+}
+
+/* Float right styles */
+#float-right {
+    float: right;
+}
+
+/* Header styles */
+.ScriptHeader {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+}
+
+.rt-heading h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+.rt-heading p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #888;
+}
+
+/* Section styles */
+section {
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card-header {
+    background-color: transparent;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Profile image styles */
+.profile_img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .col-rt-4,
+    .col-rt-12 {
+        width: 100%;
+    }
+}
+
+.info {
+    text-align: center;
+}
+.card-header {
+    margin-top: 20px;
+
+}
+

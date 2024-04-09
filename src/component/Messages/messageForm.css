@@ -1,0 +1,19 @@
+.message-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.message-form{
+    margin-top: 15rem;
+    /* background: #000; */
+}
+label ,.message-btn{
+    font-size: 1.3rem;
+    /* padding-bottom: 1rem; */
+    /* margin-bottom: 1rem; */
+}
+textarea{
+    border-radius: 1rem;
+    /* margin: 0.3rem; */
+}

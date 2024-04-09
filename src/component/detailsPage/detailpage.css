@@ -1,0 +1,103 @@
+.a-container {
+    display: flex;
+    background-color: purple;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-container {
+    width: 80%;
+    height: 80%;
+    background: pink;
+    display: flex;
+    box-shadow: 0 0 20px rgba(21, 21, 29, 0.2);
+    border-radius: 5rem;
+  }
+  .left-profile-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background: gray;
+  }
+  
+  
+  .profile-image {
+    width: 25rem;
+    height: 25rem;
+    background-image: url("https://images.unsplash.com/photo-1712068944613-1ff36db16612?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D"); /* Specify the path to your image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .name {
+    font-size: 4rem;
+    padding-right: 3.5rem;
+  }
+  
+  .right-profile-part {
+    width: 50%;
+    height: 100%;
+    /* background: yellow; */
+    /* background: rgb(183, 172, 172); */
+    background: gray;
+    overflow-y: auto;
+  }
+  .right-profile-part h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0.7rem;
+  }
+  
+  .profile-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: #f0f2f5; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .checkbox-field {
+    padding: 0.5rem;
+    margin: 2rem;
+  }
+  
+  .field label {
+    /* color: red; */
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }

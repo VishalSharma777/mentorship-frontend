@@ -1,0 +1,117 @@
+
+.menteecard-main-div{
+  display: flex;
+  
+}
+.meenteecard-container {
+  
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 350px;
+  max-width: 100%;
+  max-height:100% ;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: (0,0,0,4px);
+}
+
+.search-bar1 {
+  margin-top: 40px;
+}
+
+.image {
+  padding: 10px ;
+ 
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.mentee-name {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.m-bio  {
+  padding: 10px 0;
+  font-size: 19px;
+}
+.m-SkillLevel {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  font-size: 19px;
+}
+
+/* Add a transition effect for the button */
+.message-button {
+  transition: background-color 0.3s ease;
+}
+
+/* Change the button color when hovered */
+.message-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add some padding and margin to the main div for better spacing */
+.menteecard-main-div {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Add a hover effect to the card for interactivity */
+.meenteecard-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some styling to the image to make it more attractive */
+.image img {
+  border: 5px solid #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some styling to the text to make it more readable */
+.mentee-name, .m-bio, .m-SkillLevel, .m-interest {
+  color: #333;
+  line-height: 1.2;
+}
+.message-button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.m-interest {
+  padding: 10px 0;
+  font-size: 19px;
+}
+
+
+.message-button {
+  background-color: blue;
+}
+
+.m-SkillLevel  , .m-qualification , .m-interest-1 ,.m-goal-1{
+  
+  padding: 10px 0;
+  font-size: 19px;
+  font-weight: 600;
+
+
+}
+
+.m-SkillLevel span , .m-qualification span , .m-interest-2,.m-goal-2{
+  font-weight: 400;
+  padding-left: 10px;
+}

@@ -1,0 +1,117 @@
+.session-container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.session-sub-container{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 5rem;
+   border-radius: 1rem;
+   
+
+}
+
+.session-card{
+   
+    border: 2px solid white;
+    display: flex;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    background: white;
+    box-shadow: 2px 2px 5px rgba(227, 227, 236, 0.5),
+    -2px -2px 5px rgba(141, 141, 143, 0.5), 2px -2px 5px rgba(158, 158, 164, 0.5),
+    -2px 2px 5px rgba(188, 188, 197, 0.5);
+    
+}
+.session-img{
+    width: 18rem;
+    
+
+}
+.session-img img{
+height: 98%;
+padding: 0.5rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    
+}
+
+.session-detail{
+width:27.5rem;
+
+}
+.card-top{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background: blue; */
+    
+    margin: 0.6rem 1rem;
+}
+.card-top h2{
+    font-size: 1.3rem;
+    color: black;
+}
+.time{
+    
+    display: flex;
+    justify-content: center;
+    background: green;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 0.1rem;
+    padding-top: 0.1rem;
+    /* padding: 0.5rem; */
+}
+.card-detail{
+    padding:0.5rem 1rem;
+}
+.card-detail h3,h4,h5,p{color: black;}
+
+.card-detail span{color: red;
+    font-weight: 500;}
+.card-btn {
+    position: relative;
+    display: flex;
+    width: 23rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+  }
+  .card-btn h3{margin-top: 0.2rem;
+color: black;}
+  .session-btn {
+    position: absolute;
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5rem;
+    width: 5rem;
+    height: 100%;
+    background: var(--main-color);
+    border: 0.2rem solid var(--main-color);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: var(--bg-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    right: 20px;
+  }
+  .session-btn:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+ 
