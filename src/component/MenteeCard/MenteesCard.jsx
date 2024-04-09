@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./menteecard.css";
 import { useGetAllUser } from "../../hooks/menteesHooks";
 import { Link, useNavigate } from "react-router-dom";
-import { baseUrl } from "../Baseurl";
+import { baseUrl } from "../../Baseurl";
 
 const MenteesCard = ({ data }) => {
   const { getAllUser, allUser } = useGetAllUser();
@@ -80,7 +80,7 @@ const MenteesCard = ({ data }) => {
           filteredData.map((user, index) => (
             <div key={index} className="meenteecard-container">
               <div className="image">
-                <img src={` ${baseUrll}/${user.image}`} alt="" />
+                <img src={` ${baseUrl}/${user.image}`} alt="" />
               </div>
               <div className="mentee-name">{user.name}</div>
 

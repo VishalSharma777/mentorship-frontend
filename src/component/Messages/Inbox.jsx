@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./inbox.css"
-import { baseUrl } from "../Baseurl";
+import { baseUrl } from "../../Baseurl";
+// import { baseUrl } from "../../Baseurl";
 const Inbox = ({ userId }) => {
   const [messages, setMessages] = useState([]);
   console.log(messages)

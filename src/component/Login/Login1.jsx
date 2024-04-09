@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import {Link, NavLink,useNavigate} from 'react-router-dom'
-import { baseUrl } from "../Baseurl";
-
-
+import { baseUrl } from "../../Baseurl";
+// import dotenv from "dotenv"
+// dotenv.config()
+// const baseUrl =process.env.BASEURL;
 const Login1 = () => {
     const [user,setUser] = useState("");
     const navigate = useNavigate()
@@ -13,7 +14,7 @@ const Login1 = () => {
 
     const login =async()=>{
        try {
-         const response = await fetch(` ${baseUrl}/api/v1/users/login` ,{
+         const response = await fetch(`${baseUrl}/api/v1/users/login` ,{
              method : 'POST',
              headers : {
                  'Content-Type' : 'application/json'

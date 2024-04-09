@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { baseUrl } from "../Baseurl";
+import { baseUrl}  from "../Baseurl";
+// import { baseUrl } from "../Baseurl";
 
 export function useCreateComment() {
     const createComment = async (sessionId, comment ) => {
         try {
             const authToken = localStorage.getItem('token');
-            const response = await fetch(` ${baseUrll}/api/v1/comments/newComments/${sessionId}`, {
+            const response = await fetch(` ${baseUrl}/api/v1/comments/newComments/${sessionId}`, {
                 method: 'POST',
                 headers: {
                     Authorization: `Bearer ${authToken}`,

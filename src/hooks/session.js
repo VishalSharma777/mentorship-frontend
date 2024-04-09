@@ -40,7 +40,7 @@ export function useGetAllSession() {
     const getAllSession = async () => {
         try {
         const authToken = localStorage.getItem('token');
-        const response = await fetch(` ${baseUrll}/api/v1/session/getAllSession`, {
+        const response = await fetch(`${baseUrl}/api/v1/session/getAllSession`, {
             method: 'GET',
             headers: {
             Authorization: `Bearer ${authToken}`,

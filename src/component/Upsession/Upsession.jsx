@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import "./upsession.css"
 import { useGetAllSession } from "../../hooks/session";
 import { Link } from "react-router-dom";
-import { baseUrl } from "../Baseurl";
+import { baseUrl } from "../../Baseurl";
+
 const Upsession = () => {
   const {sessionData , getAllSession} = useGetAllSession()
   useEffect(() => {
@@ -18,7 +19,7 @@ const Upsession = () => {
             <div className="session-card" key={index}>
               <Link to={`/sessionbyid/${session._id}`}>
           <div className="session-img">
-          <img className="card-img-top" src={` ${baseUrl}/${session.image}`} alt="Card image cap" />
+          <img className="card-img-top" src={`${baseUrl}/${session.image}`} alt="Card image cap" />
           </div>
           </Link>
           <div className="session-detail">

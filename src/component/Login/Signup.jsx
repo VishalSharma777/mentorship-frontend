@@ -1,6 +1,6 @@
 import React, { Component, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { baseUrl } from "../Baseurl";
+import { baseUrl } from "../../Baseurl";
 
 
 

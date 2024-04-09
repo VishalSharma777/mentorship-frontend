@@ -24,7 +24,7 @@ export function useUpdateUserProfile() {
         form.append('image', image);
   
         const response = await fetch(
-          ` ${baseUrlrl}/api/v1/users/editUser`,
+          ` ${baseUrl}/api/v1/users/editUser`,
           {
             headers: {
               Authorization: `Bearer ${authToken}`,
