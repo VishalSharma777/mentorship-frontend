@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./menteecard.css";
 import { useGetAllUser } from "../../hooks/menteesHooks";
 import { Link, useNavigate } from "react-router-dom";
-import { baseUrl } from "../../../Url";
+import { baseUrl } from "../Baseurl";
 
 const MentorCard = ({ data }) => {
   const { getAllUser, allUser } = useGetAllUser();

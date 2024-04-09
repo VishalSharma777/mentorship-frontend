@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './profile.css'
 import { useLoggedInUser } from '../../hooks/menteesHooks'
-import { baseUrl } from '../../../Url'
+import { baseUrl } from "../Baseurl";
 
 const Profile = () => {
   const {loggedInUser , loggedUser} = useLoggedInUser()

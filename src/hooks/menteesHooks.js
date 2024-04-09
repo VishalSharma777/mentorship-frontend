@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { baseUrl } from "../../Url";
+import { baseUrl } from "../Baseurl";
 
 export function useUpdateUserProfile() {
     const updateProfile = async (formData, availability, areaOfInterest, selectedLanguages, image) => {

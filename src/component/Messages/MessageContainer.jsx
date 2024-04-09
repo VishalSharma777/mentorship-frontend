@@ -3,7 +3,7 @@ import Inbox from "../Messages/Inbox";
 import SendMessageForm from "../Messages/MessageForm";
 import { Link, useParams } from "react-router-dom";
 import { useLoggedInUser } from "../../hooks/menteesHooks";
-import { baseUrl } from "../../../Url";
+import { baseUrl } from "../Baseurl";
 
 const MessagingContainer = () => {
   const { loggedInUser, loggedUser } = useLoggedInUser();

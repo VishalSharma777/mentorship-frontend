@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Link, NavLink,useNavigate} from 'react-router-dom'
-import { baseUrl } from '../../../Url';
+import { baseUrl } from "../Baseurl";
 
 
 const Login1 = () => {

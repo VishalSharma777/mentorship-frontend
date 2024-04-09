@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./upsession.css"
 import { useGetAllSession } from "../../hooks/session";
 import { Link } from "react-router-dom";
-import { baseUrl } from "../../../Url";
+import { baseUrl } from "../Baseurl";
 const Upsession = () => {
   const {sessionData , getAllSession} = useGetAllSession()
   useEffect(() => {
